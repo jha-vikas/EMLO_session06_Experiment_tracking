@@ -4,7 +4,8 @@ import lightning as L
 import torch
 import hydra
 from omegaconf import DictConfig
-#from lightning.pytorch.loggers import Logger
+
+# from lightning.pytorch.loggers import Logger
 
 from gold import utils
 
@@ -13,7 +14,7 @@ log = utils.get_pylogger(__name__)
 
 @utils.task_wrapper
 def train(cfg: DictConfig) -> Tuple[dict, dict]:
-    #print(cfg)
+    # print(cfg)
     # set seed for random number generators in pytorch, numpy and python.random
     if cfg.get("seed"):
         L.seed_everything(cfg.seed, workers=True)

@@ -54,12 +54,12 @@ OR
 docker pull salilgtm/emlov3_assignment_6:latest
 ```
 
-dockerhub link: https://hub.docker.com/r/salilgtm/emlov3_assignment_6
+dockerhub link: https://hub.docker.com/r/salilgtm/EMLO_session06_Experiment_tracking
 
 2. To run the docker image for training, run the following command:
 
 ```bash
-docker run -it --expose 5000 -p 5000:5000 -v ${pwd}:/workspace --name adamantium-container salilgtm/emlov3_assignment_6 adamantium_train -m hydra/launcher=joblib hydra.launcher.n_jobs=5 experiment=cifar10 model.patch_size=1,2,4,8,16 data.num_workers=0
+docker run -it --expose 5000 -p 5000:5000 -v ${pwd}:/workspace --name gold-container salilgtm/emlov3_assignment_6 adamantium_train -m hydra/launcher=joblib hydra.launcher.n_jobs=5 experiment=cifar10 model.patch_size=1,2,4,8,16 data.num_workers=0
 ```
 
 3. To run the MLFlow UI, run the following command:
