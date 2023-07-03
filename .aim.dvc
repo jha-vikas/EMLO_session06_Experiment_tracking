@@ -1,0 +1,6 @@
+outs:
+- md5: 8242392f04cad5a28653551c091a455b.dir
+  size: 131076
+  nfiles: 3
+  hash: md5
+  path: .aim
