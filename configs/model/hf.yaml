@@ -1,4 +1,4 @@
-_target_: copper.models.hf_module.HFLitModule
+_target_: gold.models.hf_module.HFLitModule
 
 optimizer:
   _target_: torch.optim.Adam

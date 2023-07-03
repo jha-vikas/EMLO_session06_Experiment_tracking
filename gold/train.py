@@ -6,7 +6,7 @@ import hydra
 from omegaconf import DictConfig
 #from lightning.pytorch.loggers import Logger
 
-from copper import utils
+from gold import utils
 
 log = utils.get_pylogger(__name__)
 

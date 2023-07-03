@@ -1,4 +1,4 @@
-_target_: copper.data.image_folder_datamodule.ImageFolderDataModule
+_target_: gold.data.image_folder_datamodule.ImageFolderDataModule
 train_dataset:
   _target_: torchvision.datasets.ImageFolder
   root: ${paths.data_dir}/PetImages_split/train

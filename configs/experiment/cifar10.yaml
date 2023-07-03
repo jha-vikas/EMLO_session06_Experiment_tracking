@@ -13,7 +13,7 @@ defaults:
 # all parameters below will be merged with parameters from default configurations set above
 # this allows you to overwrite only specified parameters
 
-experiment_name: "copper-cifar10"
+experiment_name: "gold-cifar10"
 
 seed: 12345
 
