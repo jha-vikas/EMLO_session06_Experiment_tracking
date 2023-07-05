@@ -77,10 +77,10 @@ docker exec -it -w /workspace/logs/mlflow adamantium-container mlflow ui --host 
 ## Logging results
 
 ### patch_size vs val/acc(mlflow)
-![mlflow](images/mlflow.jpg)
+![mlflow](screenshots/mlflow.jpg)
 
 ### patch_size vs val/acc(aim)
-![aim](images/aim.jpg)
+![aim](screenshots/aim.jpg)
 
 
 ## Author
