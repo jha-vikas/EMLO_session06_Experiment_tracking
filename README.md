@@ -60,7 +60,7 @@ OR
 docker pull <dockerhub user_id>/<name:tag>
 ```
 
-dockerhub link: https://hub.docker.com/r/salilgtm/EMLO_session06_Experiment_tracking
+dockerhub link: https://hub.docker.com/r/boy1729/emlo_session06_experiment_tracking:solution
 
 2. To run the docker image for training, run the following command:
 
@@ -71,7 +71,7 @@ docker run -it --expose 5000 -p 5000:5000 -v ${pwd}:/workspace --name gold-conta
 3. To run the MLFlow UI, run the following command:
 
 ```bash
-docker exec -it -w /workspace/logs/mlflow adamantium-container mlflow ui --host 0.0.0.0
+docker exec -it -w /workspace/logs/mlflow gold-container mlflow ui --host 0.0.0.0
 ```
 
 ## Logging results
